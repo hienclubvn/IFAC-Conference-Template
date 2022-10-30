@@ -1,8 +1,8 @@
-#Table of Contents
-- [I. HOW TO INSTALL ENV COMPILER LATEX WITH WSL](#i-how-to-install-env-compiler-latex-with-wsl)
-- [II. HOW TO BUILD LATEX](#ii-how-to-build-latex)
-- [III. CROSS-REFEREMCE AND LINKS WITH HYPERLINK](#iii-cross-referemce-and-links-with-hyperlink)
-- [IV. REFERENCE](#iv-reference)
+# Table of Contents
+  - [I. HOW TO INSTALL ENV COMPILER LATEX WITH WSL](#i-how-to-install-env-compiler-latex-with-wsl)
+  - [II. HOW TO BUILD LATEX](#ii-how-to-build-latex)
+  - [III. CROSS-REFEREMCE AND LINKS WITH HYPERLINK](#iii-cross-referemce-and-links-with-hyperlink)
+  - [IV. REFERENCE](#iv-reference)
 
 ## I. HOW TO INSTALL ENV COMPILER LATEX WITH WSL
 1. Install Windows Subsystem for Linux **WSL** in Windows
@@ -23,21 +23,24 @@
    > ref: https://github.com/James-Yu/LaTeX-Workshop
 
 ## II. HOW TO BUILD LATEX
-1. Change filename *.TEX
-    In `Makefile` at `NAME_FILE = filename.tex`
-
-2. In **Terminal** run command:
-    ```shell
-    $ make
-    ```
-    or
-    ```shell
-    $ make all
-    ```
-    or
-    ```shell
-    make build
-    ```
+1. Build in VSCode with **LaTex-Workshop**
+   Build:       Press: `CTRL + ALT + B`
+   View PDF:    Press: `CTRL + ALT + V`
+2. Build in VSCode with **Terminal**
+   - Change filename *.TEX
+        In `Makefile` at `NAME_FILE = filename.tex`
+   - Open **Terminal** in VSCode press: **CTRL + `** and run command:
+       ```shell
+       $ make
+       ```
+       or
+       ```shell
+       $ make all
+       ```
+       or
+       ```shell
+       make build
+       ```
 3. Clear other OBJ files after the build
     ```shell
     $ make clean
