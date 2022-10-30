@@ -1,0 +1,153 @@
+\ProvidesPackage{userstyle}
+
+\usepackage{amsmath} % assumes amsmath package installed
+\usepackage{amssymb}  % assumes amsmath package installed
+
+\usepackage{pdflscape}
+\usepackage{rotating}
+\usepackage{color}
+\usepackage{epstopdf}
+
+
+
+%\usepackage{hyperref}
+%fix error: conflict \MakeUppercase with \usepackage{hyperref}
+%https://github.com/ho-tex/oberdiek/issues/58
+% \makeatletter
+% \let\MakeUppercaseUnsupportedInPdfStrings\@firstofone
+% \let\MakeLowercaseUnsupportedInPdfStrings\@firstofone
+% \makeatother
+
+%===============================================================================
+
+%\newcommand{\rank}{\hbox{rank\,}}
+\newcommand{\Rl}{\mathbb{R}}
+%%%%%%%%
+
+% --------------------------------------------------------------------------------------------------------------------------------------------
+\newcommand{\col}{\mbox{col}}
+\newcommand{\rank}{\mbox{rank }}
+% --------------------------------------------------------------------------------------------------------------------------------------------
+
+\def\sign{\mbox{\em sign}}
+\def\calp{{\mathcal P}}
+\def\II{I\&I$\;$}
+\def\cald{{\cal D}}
+\def\calA{{\cal A}}
+\def\calJ{{\cal J}}
+\def\cale{{\cal E}}
+\def\cali{{\cal I}}
+\def\calo{{\cal O}}
+\def\hal{{1 \over 2}}
+\def\bfy{{\bf y}}
+\def\bfm{{\bf m}}
+\def\bfM{{\bf M}}
+\def\bfE{{\bf E}}
+\def\bfi{{\bf i}_}
+\def\bfc{{\bf C}}
+\def\bfl{{\bf L}}
+\def\Linf{{\cal L}_\infty}
+
+\def\L2e{{\cal L}_{2e}}
+\def\L2{{\cal L}_{2}}
+\def\Linf{{\cal L}_{\infty}}
+\def\bul{\noindent $\bullet\;\;$}
+\def\rea{\mathbb{R}}
+\def\sign{\mbox{sign}}
+\def\htheta{\hat{\theta}}
+\def\diag{\mbox{diag}}
+\def\adj{\mbox{adj}}
+
+
+\newtheorem{assumption}{Assumption}
+\newtheorem{proposition}{Proposition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{remark}{Remark}
+\newtheorem{corollary}{Corollary}
+\newtheorem{example}{Example}
+
+
+\def\begequarr{\begin{eqnarray}}
+\def\endequarr{\end{eqnarray}}
+\def\begequarrs{\begin{eqnarray*}}
+\def\endequarrs{\end{eqnarray*}}
+\def\begarr{\begin{array}}
+\def\endarr{\end{array}}
+\def\begequ{\begin{equation}}
+\def\endequ{\end{equation}}
+\def\lab{\label}
+\def\begdes{\begin{description}}
+\def\enddes{\end{description}}
+\def\begenu{\begin{enumerate}}
+\def\begite{\begin{itemize}}
+\def\endite{\end{itemize}}
+\def\endenu{\end{enumerate}}
+\def\rem{\vspace{0.2cm} \noindent {\bf Remark }}
+\def\lef[{\left[\begin{array}}
+\def\rig]{\end{array}\right]}
+\def\qed{\hfill$\Box \Box \Box$}
+\def\qew{\hfill$\blacksquare$}
+\def\begcen{\begin{center}}
+\def\endcen{\end{center}}
+\def\begrem{\begin{remark}\rm}
+\def\endrem{\end{remark}}
+
+
+\def\IJACSP{{\it Int. J. on Adaptive Control and Signal Processing}}
+\def\IJRNLC{{\it Int. J. on Robust and Nonlinear Control}}
+\def\TAC{{\it IEEE Trans. Automatic Control}}
+\def\TIE{{\it IEEE Trans. Industrial Electronics}}
+\def\TRA{{\it IEEE Trans. Robotics \& Automation}}
+\def\EJC{{\it European J. of Control}}
+\def\AJC{{\it Asian J. of Control}}
+\def\IJC{{\it Int. J. of Control}}
+\def\CDC{{\it IEEE Conference on Decision and Control}}
+\def\SCL{{\it Systems and Control Letters}}
+\def\AUT{{\it Automatica}}
+\def\aut{{\it Automatica}}
+\def\CST{{\it IEEE Trans. Control Systems Technology}}
+\def\TCS{{\it IEEE Trans. on Circuits and Systems}}
+\def\CSM{{\it IEEE Control Systems Magazine}}
+\def\SIAM{{\it SIAM J. Control and Optimization}}
+
+\def\beeq#1{\begin{equation}{#1}\end{equation}}
+\def\begmat#1{\begin{bmatrix}#1\end{bmatrix}}
+\def\begali#1{\begin{align}{#1}\end{align}}
+\def\begalis#1{\begin{align*}{#1}\end{align*}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\def\call{{\cal L}}
+\def\calm{{\cal M}}
+\def\calc{{\mathcal C}}
+\def\calf{{\cal F}}
+\def\cala{{\cal A}}
+\def\calb{{\cal B}}
+\def\cale{{\mathcal E}}
+\def\calr{{\mathcal R}}
+\def\calu{{\cal U}}
+\def\cals{{\cal S}}
+
+\def\calR{{\mathcal R}}
+
+\def\epst{\epsilon_t}
+
+\def\diag{\mbox{diag}}
+\def\blodiag{\mbox{blockdiag}}
+\def\rank{\mbox{rank}\;}
+\def\im{\mbox{Im}\;}
+\def\dim{\mbox{dim}\;}
+\def\ker{\mbox{Ker}\;}
+\newcommand{\np}[1]{{\nabla_p}{#1}}
+\def\ss{\sum_{i=1}^n}
+\def\rea{\mathbb{R}}
+
+\def\undkp{\underline k_p}
+
+\usepackage{color}
+\newcommand{\nik}[1]{{\color{blue} #1}}
+\newcommand{\ger}[1]{{\color{red}#1}}
+\newcommand{\pash}[1]{{\color{magenta} #1}}
+
+\newcommand\norm[1]{\left\lVert#1\right\rVert}
+\newcommand\normx[1]{\left\Vert#1\right\Vert}
